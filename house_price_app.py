@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 # Load the trained model
-with open('house_price_model.pkl', 'rb') as file:
+with open('house_price_model.joblib', 'rb') as file:
     model = pickle.load(file)
 
 # Create the Streamlit app
